@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="d0" for="node" attr.name="dauer" attr.type="double"/>
+  <key id="d1" for="edge" attr.name="zusatzaufwand" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="AA">
+      <data key="d0">5.0</data>
+    </node>
+    <node id="B">
+      <data key="d0">7.0</data>
+    </node>
+    <node id="C">
+      <data key="d0">4.0</data>
+    </node>
+    <node id="D">
+      <data key="d0">6.0</data>
+    </node>
+    <node id="E">
+      <data key="d0">8.0</data>
+    </node>
+    <node id="F">
+      <data key="d0">3.0</data>
+    </node>
+    <node id="G">
+      <data key="d0">5.0</data>
+    </node>
+    <node id="H">
+      <data key="d0">7.0</data>
+    </node>
+    <node id="I">
+      <data key="d0">6.0</data>
+    </node>
+    <node id="J">
+      <data key="d0">4.0</data>
+    </node>
+    <node id="K">
+      <data key="d0">5.0</data>
+    </node>
+    <node id="L">
+      <data key="d0">7.0</data>
+    </node>
+    <node id="M">
+      <data key="d0">6.0</data>
+    </node>
+    <!-- Basissequenz A bis M -->
+    <edge id="e1" source="AA" target="B">
+      <data key="d1">1    </data>
+    </edge>
+    <edge id="e2" source="B" target="C">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge id="e3" source="C" target="D">
+      <data key="d1">1.2</data>
+    </edge>
+    <edge id="e4" source="D" target="E">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge id="e5" source="E" target="F">
+      <data key="d1">1.5</data>
+    </edge>
+    <edge id="e6" source="F" target="G">
+      <data key="d1">0.7</data>
+    </edge>
+    <edge id="e7" source="G" target="H">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e8" source="H" target="I">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e9" source="I" target="J">
+      <data key="d1">1.3</data>
+    </edge>
+    <edge id="e10" source="J" target="K">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge id="e11" source="K" target="L">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge id="e12" source="L" target="M">
+      <data key="d1">0.4</data>
+    </edge>
+    <!-- Zusätzliche Kanten für höhere Vernetzung -->
+    <!-- A beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e13" source="A" target="C">
+      <data key="d1">0.3</data>
+    </edge>
+    <edge id="e14" source="A" target="D">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge id="e15" source="A" target="E">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge id="e16" source="A" target="F">
+      <data key="d1">1.2</data>
+    </edge>
+    <edge id="e17" source="A" target="G">
+      <data key="d1">1.4</data>
+    </edge>
+    <!-- B beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e18" source="B" target="D">
+      <data key="d1">0.4</data>
+    </edge>
+    <edge id="e19" source="B" target="E">
+      <data key="d1">0.7</data>
+    </edge>
+    <edge id="e20" source="B" target="F">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e21" source="B" target="G">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e22" source="B" target="H">
+      <data key="d1">1.3</data>
+    </edge>
+    <!-- C beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e23" source="C" target="E">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge id="e24" source="C" target="F">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge id="e25" source="C" target="G">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge id="e26" source="C" target="H">
+      <data key="d1">1.2</data>
+    </edge>
+    <edge id="e27" source="C" target="I">
+      <data key="d1">1.4</data>
+    </edge>
+    <!-- D beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e28" source="D" target="F">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge id="e29" source="D" target="G">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e30" source="D" target="H">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e31" source="D" target="I">
+      <data key="d1">1.3</data>
+    </edge>
+    <edge id="e32" source="D" target="J">
+      <data key="d1">1.5</data>
+    </edge>
+    <!-- E beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e33" source="E" target="G">
+      <data key="d1">0.4</data>
+    </edge>
+    <edge id="e34" source="E" target="H">
+      <data key="d1">0.7</data>
+    </edge>
+    <edge id="e35" source="E" target="I">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e36" source="E" target="J">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e37" source="E" target="K">
+      <data key="d1">1.3</data>
+    </edge>
+    <!-- F beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e38" source="F" target="H">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge id="e39" source="F" target="I">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge id="e40" source="F" target="J">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge id="e41" source="F" target="K">
+      <data key="d1">1.2</data>
+    </edge>
+    <edge id="e42" source="F" target="L">
+      <data key="d1">1.4</data>
+    </edge>
+    <!-- G beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e43" source="G" target="I">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge id="e44" source="G" target="J">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e45" source="G" target="K">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e46" source="G" target="L">
+      <data key="d1">1.3</data>
+    </edge>
+    <edge id="e47" source="G" target="M">
+      <data key="d1">1.5</data>
+    </edge>
+    <!-- H beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e48" source="H" target="J">
+      <data key="d1">0.4</data>
+    </edge>
+    <edge id="e49" source="H" target="K">
+      <data key="d1">0.7</data>
+    </edge>
+    <edge id="e50" source="H" target="L">
+      <data key="d1">0.9</data>
+    </edge>
+    <edge id="e51" source="H" target="M">
+      <data key="d1">1.1</data>
+    </edge>
+    <!-- I beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e52" source="I" target="K">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge id="e53" source="I" target="L">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge id="e54" source="I" target="M">
+      <data key="d1">1.0</data>
+    </edge>
+    <!-- J beeinflusst mehrere nachfolgende Schritte -->
+    <edge id="e55" source="J" target="L">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge id="e56" source="J" target="M">
+      <data key="d1">0.9</data>
+    </edge>
+    <!-- K beeinflusst nachfolgende Schritte -->
+    <edge id="e57" source="K" target="M">
+      <data key="d1">0.5</data>
+    </edge>
+    <!-- Zusätzliche Querverbindungen für noch höhere Vernetzung -->
+    <edge id="e58" source="A" target="H">
+      <data key="d1">1.6</data>
+    </edge>
+    <edge id="e59" source="B" target="I">
+      <data key="d1">1.5</data>
+    </edge>
+    <edge id="e60" source="C" target="J">
+      <data key="d1">1.4</data>
+    </edge>
+    <edge id="e61" source="D" target="K">
+      <data key="d1">1.3</data>
+    </edge>
+    <edge id="e62" source="E" target="L">
+      <data key="d1">1.2</data>
+    </edge>
+    <edge id="e63" source="F" target="M">
+      <data key="d1">1.1</data>
+    </edge>
+    <edge id="e64" source="A" target="M">
+      <data key="d1">2.0</data>
+    </edge>
+    <edge id="e65" source="B" target="M">
+      <data key="d1">1.8</data>
+    </edge>
+    <!-- jetzt gehts auch von hinten nach vorn -->
+  </graph>
+</graphml>

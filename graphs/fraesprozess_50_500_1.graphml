@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="d0" for="node" attr.name="dauer" attr.type="double"/>
+  <key id="d1" for="edge" attr.name="zusatzaufwand" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="N1">
+      <data key="d0">7.1</data>
+    </node>
+    <node id="N2">
+      <data key="d0">3.9</data>
+    </node>
+    <node id="N3">
+      <data key="d0">9.9</data>
+    </node>
+    <node id="N4">
+      <data key="d0">4.3</data>
+    </node>
+    <node id="N5">
+      <data key="d0">8.1</data>
+    </node>
+    <node id="N6">
+      <data key="d0">8.5</data>
+    </node>
+    <node id="N7">
+      <data key="d0">6.1</data>
+    </node>
+    <node id="N8">
+      <data key="d0">3.4</data>
+    </node>
+    <node id="N9">
+      <data key="d0">5.5</data>
+    </node>
+    <node id="N10">
+      <data key="d0">4.7</data>
+    </node>
+    <node id="N11">
+      <data key="d0">6.2</data>
+    </node>
+    <node id="N12">
+      <data key="d0">7.7</data>
+    </node>
+    <node id="N13">
+      <data key="d0">3.9</data>
+    </node>
+    <node id="N14">
+      <data key="d0">6.1</data>
+    </node>
+    <node id="N15">
+      <data key="d0">3.2</data>
+    </node>
+    <node id="N16">
+      <data key="d0">5.9</data>
+    </node>
+    <node id="N17">
+      <data key="d0">4.9</data>
+    </node>
+    <node id="N18">
+      <data key="d0">3.7</data>
+    </node>
+    <node id="N19">
+      <data key="d0">5.3</data>
+    </node>
+    <node id="N20">
+      <data key="d0">7.3</data>
+    </node>
+    <node id="N21">
+      <data key="d0">5.2</data>
+    </node>
+    <node id="N22">
+      <data key="d0">3.4</data>
+    </node>
+    <node id="N23">
+      <data key="d0">5.9</data>
+    </node>
+    <node id="N24">
+      <data key="d0">5.3</data>
+    </node>
+    <node id="N25">
+      <data key="d0">6.0</data>
+    </node>
+    <node id="N26">
+      <data key="d0">5.2</data>
+    </node>
+    <node id="N27">
+      <data key="d0">7.5</data>
+    </node>
+    <node id="N28">
+      <data key="d0">4.6</data>
+    </node>
+    <node id="N29">
+      <data key="d0">8.6</data>
+    </node>
+    <node id="N30">
+      <data key="d0">8.1</data>
+    </node>
+    <node id="N31">
+      <data key="d0">3.5</data>
+    </node>
+    <node id="N32">
+      <data key="d0">6.4</data>
+    </node>
+    <node id="N33">
+      <data key="d0">8.8</data>
+    </node>
+    <node id="N34">
+      <data key="d0">9.4</data>
+    </node>
+    <node id="N35">
+      <data key="d0">7.1</data>
+    </node>
+    <node id="N36">
+      <data key="d0">7.2</data>
+    </node>
+    <node id="N37">
+      <data key="d0">8.2</data>
+    </node>
+    <node id="N38">
+      <data key="d0">9.8</data>
+    </node>
+    <node id="N39">
+      <data key="d0">7.4</data>
+    </node>
+    <node id="N40">
+      <data key="d0">6.1</data>
+    </node>
+    <node id="N41">
+      <data key="d0">9.9</data>
+    </node>
+    <node id="N42">
+      <data key="d0">6.8</data>
+    </node>
+    <node id="N43">
+      <data key="d0">5.2</data>
+    </node>
+    <node id="N44">
+      <data key="d0">6.8</data>
+    </node>
+    <node id="N45">
+      <data key="d0">7.1</data>
+    </node>
+    <node id="N46">
+      <data key="d0">3.8</data>
+    </node>
+    <node id="N47">
+      <data key="d0">6.9</data>
+    </node>
+    <node id="N48">
+      <data key="d0">4.0</data>
+    </node>
+    <node id="N49">
+      <data key="d0">9.2</data>
+    </node>
+    <node id="N50">
+      <data key="d0">3.4</data>
+    </node>
+    <edge id="e1" source="N47" target="N9">
+      <data key="d1">0.89</data>
+    </edge>
+    <edge id="e2" source="N9" target="N5">
+      <data key="d1">1.30</data>
+    </edge>
+    <edge id="e3" source="N35" target="N6">
+      <data key="d1">0.93</data>
+    </edge>
+    <edge id="e4" source="N30" target="N23">
+      <data key="d1">0.51</data>
+    </edge>
+    <edge id="e5" source="N35" target="N26">
+      <data key="d1">1.17</data>
+    </edge>
+    <edge id="e6" source="N29" target="N5">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e7" source="N18" target="N46">
+      <data key="d1">1.40</data>
+    </edge>
+    <edge id="e8" source="N1" target="N21">
+      <data key="d1">0.90</data>
+    </edge>
+    <edge id="e9" source="N42" target="N27">
+      <data key="d1">1.25</data>
+    </edge>
+    <edge id="e10" source="N32" target="N1">
+      <data key="d1">0.66</data>
+    </edge>
+    <edge id="e11" source="N50" target="N16">
+      <data key="d1">0.94</data>
+    </edge>
+    <edge id="e12" source="N25" target="N21">
+      <data key="d1">1.48</data>
+    </edge>
+    <edge id="e13" source="N47" target="N11">
+      <data key="d1">0.38</data>
+    </edge>
+    <edge id="e14" source="N34" target="N14">
+      <data key="d1">0.81</data>
+    </edge>
+    <edge id="e15" source="N6" target="N26">
+      <data key="d1">1.68</data>
+    </edge>
+    <edge id="e16" source="N33" target="N28">
+      <data key="d1">0.79</data>
+    </edge>
+    <edge id="e17" source="N12" target="N22">
+      <data key="d1">0.50</data>
+    </edge>
+    <edge id="e18" source="N14" target="N26">
+      <data key="d1">1.56</data>
+    </edge>
+    <edge id="e19" source="N45" target="N30">
+      <data key="d1">0.50</data>
+    </edge>
+    <edge id="e20" source="N24" target="N30">
+      <data key="d1">1.53</data>
+    </edge>
+    <edge id="e21" source="N48" target="N38">
+      <data key="d1">1.17</data>
+    </edge>
+    <edge id="e22" source="N4" target="N35">
+      <data key="d1">0.34</data>
+    </edge>
+    <edge id="e23" source="N31" target="N11">
+      <data key="d1">0.59</data>
+    </edge>
+    <edge id="e24" source="N12" target="N15">
+      <data key="d1">0.74</data>
+    </edge>
+    <edge id="e25" source="N40" target="N18">
+      <data key="d1">1.85</data>
+    </edge>
+    <edge id="e26" source="N49" target="N22">
+      <data key="d1">0.32</data>
+    </edge>
+    <edge id="e27" source="N7" target="N48">
+      <data key="d1">0.42</data>
+    </edge>
+    <edge id="e28" source="N3" target="N29">
+      <data key="d1">1.57</data>
+    </edge>
+    <edge id="e29" source="N21" target="N9">
+      <data key="d1">0.89</data>
+    </edge>
+    <edge id="e30" source="N42" target="N23">
+      <data key="d1">1.05</data>
+    </edge>
+    <edge id="e31" source="N18" target="N6">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e32" source="N50" target="N8">
+      <data key="d1">0.75</data>
+    </edge>
+    <edge id="e33" source="N9" target="N12">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e34" source="N35" target="N49">
+      <data key="d1">0.91</data>
+    </edge>
+    <edge id="e35" source="N42" target="N18">
+      <data key="d1">0.73</data>
+    </edge>
+    <edge id="e36" source="N13" target="N2">
+      <data key="d1">1.71</data>
+    </edge>
+    <edge id="e37" source="N9" target="N23">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e38" source="N22" target="N17">
+      <data key="d1">1.72</data>
+    </edge>
+    <edge id="e39" source="N50" target="N19">
+      <data key="d1">0.98</data>
+    </edge>
+    <edge id="e40" source="N38" target="N45">
+      <data key="d1">0.86</data>
+    </edge>
+    <edge id="e41" source="N1" target="N32">
+      <data key="d1">1.61</data>
+    </edge>
+    <edge id="e42" source="N34" target="N48">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e43" source="N19" target="N42">
+      <data key="d1">1.01</data>
+    </edge>
+    <edge id="e44" source="N36" target="N2">
+      <data key="d1">0.99</data>
+    </edge>
+    <edge id="e45" source="N36" target="N50">
+      <data key="d1">0.77</data>
+    </edge>
+    <edge id="e46" source="N17" target="N3">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge id="e47" source="N43" target="N50">
+      <data key="d1">1.11</data>
+    </edge>
+    <edge id="e48" source="N3" target="N48">
+      <data key="d1">1.66</data>
+    </edge>
+    <edge id="e49" source="N37" target="N18">
+      <data key="d1">0.89</data>
+    </edge>
+    <edge id="e50" source="N13" target="N29">
+      <data key="d1">1.33</data>
+    </edge>
+    <edge id="e51" source="N24" target="N47">
+      <data key="d1">1.52</data>
+    </edge>
+    <edge id="e52" source="N9" target="N26">
+      <data key="d1">0.95</data>
+    </edge>
+    <edge id="e53" source="N30" target="N31">
+      <data key="d1">1.19</data>
+    </edge>
+    <edge id="e54" source="N27" target="N10">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e55" source="N17" target="N23">
+      <data key="d1">1.05</data>
+    </edge>
+    <edge id="e56" source="N45" target="N15">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e57" source="N18" target="N2">
+      <data key="d1">0.76</data>
+    </edge>
+    <edge id="e58" source="N30" target="N42">
+      <data key="d1">0.49</data>
+    </edge>
+    <edge id="e59" source="N37" target="N36">
+      <data key="d1">1.69</data>
+    </edge>
+    <edge id="e60" source="N44" target="N45">
+      <data key="d1">1.49</data>
+    </edge>
+    <edge id="e61" source="N15" target="N45">
+      <data key="d1">0.62</data>
+    </edge>
+    <edge id="e62" source="N27" target="N7">
+      <data key="d1">1.61</data>
+    </edge>
+    <edge id="e63" source="N8" target="N45">
+      <data key="d1">1.76</data>
+    </edge>
+    <edge id="e64" source="N47" target="N23">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e65" source="N6" target="N9">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e66" source="N28" target="N31">
+      <data key="d1">1.75</data>
+    </edge>
+    <edge id="e67" source="N48" target="N15">
+      <data key="d1">0.94</data>
+    </edge>
+    <edge id="e68" source="N4" target="N24">
+      <data key="d1">1.76</data>
+    </edge>
+    <edge id="e69" source="N44" target="N28">
+      <data key="d1">0.33</data>
+    </edge>
+    <edge id="e70" source="N35" target="N11">
+      <data key="d1">1.07</data>
+    </edge>
+    <edge id="e71" source="N29" target="N46">
+      <data key="d1">0.53</data>
+    </edge>
+    <edge id="e72" source="N39" target="N6">
+      <data key="d1">1.28</data>
+    </edge>
+    <edge id="e73" source="N11" target="N28">
+      <data key="d1">1.81</data>
+    </edge>
+    <edge id="e74" source="N17" target="N7">
+      <data key="d1">1.78</data>
+    </edge>
+    <edge id="e75" source="N12" target="N41">
+      <data key="d1">1.27</data>
+    </edge>
+    <edge id="e76" source="N27" target="N4">
+      <data key="d1">1.83</data>
+    </edge>
+    <edge id="e77" source="N8" target="N37">
+      <data key="d1">1.96</data>
+    </edge>
+    <edge id="e78" source="N41" target="N48">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e79" source="N39" target="N50">
+      <data key="d1">1.41</data>
+    </edge>
+    <edge id="e80" source="N16" target="N49">
+      <data key="d1">1.84</data>
+    </edge>
+    <edge id="e81" source="N2" target="N4">
+      <data key="d1">1.22</data>
+    </edge>
+    <edge id="e82" source="N30" target="N12">
+      <data key="d1">0.50</data>
+    </edge>
+    <edge id="e83" source="N31" target="N33">
+      <data key="d1">1.63</data>
+    </edge>
+    <edge id="e84" source="N44" target="N8">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e85" source="N46" target="N25">
+      <data key="d1">0.67</data>
+    </edge>
+    <edge id="e86" source="N40" target="N25">
+      <data key="d1">1.54</data>
+    </edge>
+    <edge id="e87" source="N48" target="N28">
+      <data key="d1">1.88</data>
+    </edge>
+    <edge id="e88" source="N41" target="N18">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e89" source="N32" target="N46">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e90" source="N20" target="N36">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e91" source="N43" target="N14">
+      <data key="d1">1.36</data>
+    </edge>
+    <edge id="e92" source="N45" target="N25">
+      <data key="d1">0.73</data>
+    </edge>
+    <edge id="e93" source="N24" target="N46">
+      <data key="d1">0.62</data>
+    </edge>
+    <edge id="e94" source="N29" target="N50">
+      <data key="d1">1.10</data>
+    </edge>
+    <edge id="e95" source="N3" target="N15">
+      <data key="d1">1.99</data>
+    </edge>
+    <edge id="e96" source="N47" target="N45">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e97" source="N16" target="N12">
+      <data key="d1">1.75</data>
+    </edge>
+    <edge id="e98" source="N1" target="N30">
+      <data key="d1">0.98</data>
+    </edge>
+    <edge id="e99" source="N41" target="N4">
+      <data key="d1">1.50</data>
+    </edge>
+    <edge id="e100" source="N5" target="N24">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e101" source="N8" target="N29">
+      <data key="d1">1.43</data>
+    </edge>
+    <edge id="e102" source="N7" target="N3">
+      <data key="d1">1.88</data>
+    </edge>
+    <edge id="e103" source="N30" target="N48">
+      <data key="d1">1.03</data>
+    </edge>
+    <edge id="e104" source="N36" target="N34">
+      <data key="d1">1.06</data>
+    </edge>
+    <edge id="e105" source="N6" target="N22">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e106" source="N19" target="N15">
+      <data key="d1">1.90</data>
+    </edge>
+    <edge id="e107" source="N43" target="N34">
+      <data key="d1">0.51</data>
+    </edge>
+    <edge id="e108" source="N31" target="N47">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge id="e109" source="N9" target="N30">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e110" source="N14" target="N22">
+      <data key="d1">1.18</data>
+    </edge>
+    <edge id="e111" source="N5" target="N43">
+      <data key="d1">0.81</data>
+    </edge>
+    <edge id="e112" source="N20" target="N22">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e113" source="N32" target="N37">
+      <data key="d1">1.35</data>
+    </edge>
+    <edge id="e114" source="N36" target="N12">
+      <data key="d1">0.61</data>
+    </edge>
+    <edge id="e115" source="N33" target="N39">
+      <data key="d1">0.97</data>
+    </edge>
+    <edge id="e116" source="N4" target="N6">
+      <data key="d1">0.37</data>
+    </edge>
+    <edge id="e117" source="N45" target="N3">
+      <data key="d1">1.48</data>
+    </edge>
+    <edge id="e118" source="N7" target="N42">
+      <data key="d1">1.90</data>
+    </edge>
+    <edge id="e119" source="N22" target="N2">
+      <data key="d1">1.97</data>
+    </edge>
+    <edge id="e120" source="N1" target="N5">
+      <data key="d1">0.71</data>
+    </edge>
+    <edge id="e121" source="N43" target="N4">
+      <data key="d1">1.27</data>
+    </edge>
+    <edge id="e122" source="N34" target="N44">
+      <data key="d1">1.06</data>
+    </edge>
+    <edge id="e123" source="N48" target="N2">
+      <data key="d1">1.46</data>
+    </edge>
+    <edge id="e124" source="N32" target="N34">
+      <data key="d1">0.97</data>
+    </edge>
+    <edge id="e125" source="N3" target="N9">
+      <data key="d1">1.16</data>
+    </edge>
+    <edge id="e126" source="N45" target="N49">
+      <data key="d1">0.36</data>
+    </edge>
+    <edge id="e127" source="N50" target="N22">
+      <data key="d1">1.40</data>
+    </edge>
+    <edge id="e128" source="N13" target="N38">
+      <data key="d1">1.87</data>
+    </edge>
+    <edge id="e129" source="N43" target="N26">
+      <data key="d1">1.60</data>
+    </edge>
+    <edge id="e130" source="N31" target="N25">
+      <data key="d1">1.72</data>
+    </edge>
+    <edge id="e131" source="N37" target="N29">
+      <data key="d1">1.03</data>
+    </edge>
+    <edge id="e132" source="N39" target="N49">
+      <data key="d1">1.12</data>
+    </edge>
+    <edge id="e133" source="N24" target="N42">
+      <data key="d1">1.12</data>
+    </edge>
+    <edge id="e134" source="N50" target="N14">
+      <data key="d1">1.75</data>
+    </edge>
+    <edge id="e135" source="N16" target="N2">
+      <data key="d1">0.68</data>
+    </edge>
+    <edge id="e136" source="N2" target="N6">
+      <data key="d1">0.84</data>
+    </edge>
+    <edge id="e137" source="N48" target="N12">
+      <data key="d1">1.15</data>
+    </edge>
+    <edge id="e138" source="N18" target="N3">
+      <data key="d1">0.84</data>
+    </edge>
+    <edge id="e139" source="N29" target="N25">
+      <data key="d1">1.36</data>
+    </edge>
+    <edge id="e140" source="N9" target="N15">
+      <data key="d1">1.20</data>
+    </edge>
+    <edge id="e141" source="N50" target="N9">
+      <data key="d1">1.59</data>
+    </edge>
+    <edge id="e142" source="N35" target="N32">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e143" source="N18" target="N15">
+      <data key="d1">0.86</data>
+    </edge>
+    <edge id="e144" source="N3" target="N45">
+      <data key="d1">0.48</data>
+    </edge>
+    <edge id="e145" source="N8" target="N30">
+      <data key="d1">1.43</data>
+    </edge>
+    <edge id="e146" source="N50" target="N15">
+      <data key="d1">0.32</data>
+    </edge>
+    <edge id="e147" source="N3" target="N2">
+      <data key="d1">1.11</data>
+    </edge>
+    <edge id="e148" source="N27" target="N12">
+      <data key="d1">1.01</data>
+    </edge>
+    <edge id="e149" source="N14" target="N44">
+      <data key="d1">0.76</data>
+    </edge>
+    <edge id="e150" source="N23" target="N27">
+      <data key="d1">0.76</data>
+    </edge>
+    <edge id="e151" source="N20" target="N12">
+      <data key="d1">1.85</data>
+    </edge>
+    <edge id="e152" source="N4" target="N46">
+      <data key="d1">0.77</data>
+    </edge>
+    <edge id="e153" source="N23" target="N7">
+      <data key="d1">0.76</data>
+    </edge>
+    <edge id="e154" source="N48" target="N34">
+      <data key="d1">1.94</data>
+    </edge>
+    <edge id="e155" source="N50" target="N31">
+      <data key="d1">0.84</data>
+    </edge>
+    <edge id="e156" source="N24" target="N15">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e157" source="N3" target="N33">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e158" source="N30" target="N15">
+      <data key="d1">1.33</data>
+    </edge>
+    <edge id="e159" source="N6" target="N45">
+      <data key="d1">0.67</data>
+    </edge>
+    <edge id="e160" source="N4" target="N12">
+      <data key="d1">0.93</data>
+    </edge>
+    <edge id="e161" source="N38" target="N24">
+      <data key="d1">0.87</data>
+    </edge>
+    <edge id="e162" source="N36" target="N24">
+      <data key="d1">1.50</data>
+    </edge>
+    <edge id="e163" source="N24" target="N13">
+      <data key="d1">1.32</data>
+    </edge>
+    <edge id="e164" source="N23" target="N49">
+      <data key="d1">0.73</data>
+    </edge>
+    <edge id="e165" source="N25" target="N1">
+      <data key="d1">0.39</data>
+    </edge>
+    <edge id="e166" source="N11" target="N43">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e167" source="N30" target="N13">
+      <data key="d1">1.87</data>
+    </edge>
+    <edge id="e168" source="N1" target="N11">
+      <data key="d1">1.73</data>
+    </edge>
+    <edge id="e169" source="N5" target="N32">
+      <data key="d1">1.08</data>
+    </edge>
+    <edge id="e170" source="N24" target="N14">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge id="e171" source="N5" target="N37">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e172" source="N37" target="N46">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e173" source="N9" target="N39">
+      <data key="d1">1.86</data>
+    </edge>
+    <edge id="e174" source="N29" target="N23">
+      <data key="d1">0.93</data>
+    </edge>
+    <edge id="e175" source="N11" target="N19">
+      <data key="d1">1.37</data>
+    </edge>
+    <edge id="e176" source="N38" target="N6">
+      <data key="d1">0.99</data>
+    </edge>
+    <edge id="e177" source="N39" target="N27">
+      <data key="d1">1.54</data>
+    </edge>
+    <edge id="e178" source="N13" target="N12">
+      <data key="d1">1.17</data>
+    </edge>
+    <edge id="e179" source="N33" target="N31">
+      <data key="d1">1.57</data>
+    </edge>
+    <edge id="e180" source="N36" target="N13">
+      <data key="d1">1.70</data>
+    </edge>
+    <edge id="e181" source="N39" target="N14">
+      <data key="d1">1.59</data>
+    </edge>
+    <edge id="e182" source="N25" target="N9">
+      <data key="d1">0.69</data>
+    </edge>
+    <edge id="e183" source="N44" target="N25">
+      <data key="d1">1.95</data>
+    </edge>
+    <edge id="e184" source="N1" target="N43">
+      <data key="d1">0.33</data>
+    </edge>
+    <edge id="e185" source="N10" target="N22">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e186" source="N44" target="N3">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e187" source="N38" target="N9">
+      <data key="d1">1.55</data>
+    </edge>
+    <edge id="e188" source="N35" target="N21">
+      <data key="d1">0.46</data>
+    </edge>
+    <edge id="e189" source="N17" target="N13">
+      <data key="d1">0.55</data>
+    </edge>
+    <edge id="e190" source="N28" target="N48">
+      <data key="d1">1.36</data>
+    </edge>
+    <edge id="e191" source="N5" target="N6">
+      <data key="d1">1.40</data>
+    </edge>
+    <edge id="e192" source="N16" target="N20">
+      <data key="d1">1.08</data>
+    </edge>
+    <edge id="e193" source="N35" target="N23">
+      <data key="d1">1.06</data>
+    </edge>
+    <edge id="e194" source="N6" target="N33">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e195" source="N15" target="N10">
+      <data key="d1">0.41</data>
+    </edge>
+    <edge id="e196" source="N43" target="N32">
+      <data key="d1">0.66</data>
+    </edge>
+    <edge id="e197" source="N37" target="N32">
+      <data key="d1">1.58</data>
+    </edge>
+    <edge id="e198" source="N19" target="N12">
+      <data key="d1">1.36</data>
+    </edge>
+    <edge id="e199" source="N22" target="N1">
+      <data key="d1">1.00</data>
+    </edge>
+    <edge id="e200" source="N25" target="N8">
+      <data key="d1">1.86</data>
+    </edge>
+    <edge id="e201" source="N20" target="N2">
+      <data key="d1">0.65</data>
+    </edge>
+    <edge id="e202" source="N10" target="N14">
+      <data key="d1">0.66</data>
+    </edge>
+    <edge id="e203" source="N38" target="N2">
+      <data key="d1">0.92</data>
+    </edge>
+    <edge id="e204" source="N10" target="N21">
+      <data key="d1">1.37</data>
+    </edge>
+    <edge id="e205" source="N18" target="N8">
+      <data key="d1">1.16</data>
+    </edge>
+    <edge id="e206" source="N40" target="N23">
+      <data key="d1">1.73</data>
+    </edge>
+    <edge id="e207" source="N29" target="N21">
+      <data key="d1">1.18</data>
+    </edge>
+    <edge id="e208" source="N30" target="N29">
+      <data key="d1">1.32</data>
+    </edge>
+    <edge id="e209" source="N46" target="N36">
+      <data key="d1">1.70</data>
+    </edge>
+    <edge id="e210" source="N39" target="N30">
+      <data key="d1">1.66</data>
+    </edge>
+    <edge id="e211" source="N20" target="N1">
+      <data key="d1">0.80</data>
+    </edge>
+    <edge id="e212" source="N45" target="N7">
+      <data key="d1">1.31</data>
+    </edge>
+    <edge id="e213" source="N38" target="N11">
+      <data key="d1">1.69</data>
+    </edge>
+    <edge id="e214" source="N47" target="N42">
+      <data key="d1">1.58</data>
+    </edge>
+    <edge id="e215" source="N47" target="N39">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e216" source="N47" target="N48">
+      <data key="d1">1.35</data>
+    </edge>
+    <edge id="e217" source="N20" target="N29">
+      <data key="d1">1.26</data>
+    </edge>
+    <edge id="e218" source="N28" target="N25">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e219" source="N41" target="N44">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e220" source="N23" target="N40">
+      <data key="d1">1.83</data>
+    </edge>
+    <edge id="e221" source="N29" target="N41">
+      <data key="d1">1.92</data>
+    </edge>
+    <edge id="e222" source="N42" target="N46">
+      <data key="d1">1.30</data>
+    </edge>
+    <edge id="e223" source="N10" target="N30">
+      <data key="d1">0.37</data>
+    </edge>
+    <edge id="e224" source="N8" target="N47">
+      <data key="d1">0.69</data>
+    </edge>
+    <edge id="e225" source="N46" target="N2">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge id="e226" source="N43" target="N35">
+      <data key="d1">1.33</data>
+    </edge>
+    <edge id="e227" source="N33" target="N22">
+      <data key="d1">0.48</data>
+    </edge>
+    <edge id="e228" source="N14" target="N12">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e229" source="N29" target="N8">
+      <data key="d1">1.34</data>
+    </edge>
+    <edge id="e230" source="N20" target="N28">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e231" source="N36" target="N42">
+      <data key="d1">1.68</data>
+    </edge>
+    <edge id="e232" source="N47" target="N44">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge id="e233" source="N27" target="N48">
+      <data key="d1">0.91</data>
+    </edge>
+    <edge id="e234" source="N23" target="N37">
+      <data key="d1">0.45</data>
+    </edge>
+    <edge id="e235" source="N3" target="N40">
+      <data key="d1">1.59</data>
+    </edge>
+    <edge id="e236" source="N49" target="N11">
+      <data key="d1">0.46</data>
+    </edge>
+    <edge id="e237" source="N2" target="N39">
+      <data key="d1">0.87</data>
+    </edge>
+    <edge id="e238" source="N33" target="N23">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge id="e239" source="N29" target="N35">
+      <data key="d1">1.45</data>
+    </edge>
+    <edge id="e240" source="N14" target="N46">
+      <data key="d1">1.13</data>
+    </edge>
+    <edge id="e241" source="N35" target="N45">
+      <data key="d1">1.12</data>
+    </edge>
+    <edge id="e242" source="N14" target="N37">
+      <data key="d1">1.79</data>
+    </edge>
+    <edge id="e243" source="N25" target="N24">
+      <data key="d1">1.90</data>
+    </edge>
+    <edge id="e244" source="N50" target="N10">
+      <data key="d1">1.36</data>
+    </edge>
+    <edge id="e245" source="N8" target="N35">
+      <data key="d1">1.09</data>
+    </edge>
+    <edge id="e246" source="N13" target="N20">
+      <data key="d1">1.71</data>
+    </edge>
+    <edge id="e247" source="N30" target="N5">
+      <data key="d1">1.07</data>
+    </edge>
+    <edge id="e248" source="N26" target="N1">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e249" source="N42" target="N36">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e250" source="N3" target="N6">
+      <data key="d1">1.14</data>
+    </edge>
+    <edge id="e251" source="N15" target="N29">
+      <data key="d1">1.94</data>
+    </edge>
+    <edge id="e252" source="N30" target="N21">
+      <data key="d1">0.62</data>
+    </edge>
+    <edge id="e253" source="N24" target="N23">
+      <data key="d1">1.87</data>
+    </edge>
+    <edge id="e254" source="N4" target="N23">
+      <data key="d1">0.95</data>
+    </edge>
+    <edge id="e255" source="N29" target="N15">
+      <data key="d1">1.67</data>
+    </edge>
+    <edge id="e256" source="N48" target="N19">
+      <data key="d1">1.65</data>
+    </edge>
+    <edge id="e257" source="N2" target="N31">
+      <data key="d1">1.40</data>
+    </edge>
+    <edge id="e258" source="N38" target="N30">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e259" source="N11" target="N45">
+      <data key="d1">0.69</data>
+    </edge>
+    <edge id="e260" source="N37" target="N17">
+      <data key="d1">1.13</data>
+    </edge>
+    <edge id="e261" source="N31" target="N4">
+      <data key="d1">1.15</data>
+    </edge>
+    <edge id="e262" source="N45" target="N44">
+      <data key="d1">1.53</data>
+    </edge>
+    <edge id="e263" source="N35" target="N10">
+      <data key="d1">1.66</data>
+    </edge>
+    <edge id="e264" source="N29" target="N13">
+      <data key="d1">1.41</data>
+    </edge>
+    <edge id="e265" source="N45" target="N22">
+      <data key="d1">1.88</data>
+    </edge>
+    <edge id="e266" source="N11" target="N9">
+      <data key="d1">1.47</data>
+    </edge>
+    <edge id="e267" source="N17" target="N40">
+      <data key="d1">0.63</data>
+    </edge>
+    <edge id="e268" source="N14" target="N39">
+      <data key="d1">0.62</data>
+    </edge>
+    <edge id="e269" source="N40" target="N19">
+      <data key="d1">1.87</data>
+    </edge>
+    <edge id="e270" source="N6" target="N30">
+      <data key="d1">0.53</data>
+    </edge>
+    <edge id="e271" source="N47" target="N19">
+      <data key="d1">1.87</data>
+    </edge>
+    <edge id="e272" source="N10" target="N40">
+      <data key="d1">1.75</data>
+    </edge>
+    <edge id="e273" source="N46" target="N30">
+      <data key="d1">1.77</data>
+    </edge>
+    <edge id="e274" source="N2" target="N25">
+      <data key="d1">0.45</data>
+    </edge>
+    <edge id="e275" source="N3" target="N1">
+      <data key="d1">0.85</data>
+    </edge>
+    <edge id="e276" source="N24" target="N11">
+      <data key="d1">1.39</data>
+    </edge>
+    <edge id="e277" source="N28" target="N45">
+      <data key="d1">0.64</data>
+    </edge>
+    <edge id="e278" source="N30" target="N28">
+      <data key="d1">1.23</data>
+    </edge>
+    <edge id="e279" source="N15" target="N50">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e280" source="N6" target="N31">
+      <data key="d1">0.42</data>
+    </edge>
+    <edge id="e281" source="N4" target="N29">
+      <data key="d1">1.08</data>
+    </edge>
+    <edge id="e282" source="N5" target="N8">
+      <data key="d1">0.67</data>
+    </edge>
+    <edge id="e283" source="N10" target="N31">
+      <data key="d1">1.75</data>
+    </edge>
+    <edge id="e284" source="N32" target="N40">
+      <data key="d1">1.35</data>
+    </edge>
+    <edge id="e285" source="N5" target="N22">
+      <data key="d1">1.02</data>
+    </edge>
+    <edge id="e286" source="N49" target="N8">
+      <data key="d1">1.47</data>
+    </edge>
+    <edge id="e287" source="N1" target="N39">
+      <data key="d1">1.42</data>
+    </edge>
+    <edge id="e288" source="N44" target="N27">
+      <data key="d1">0.75</data>
+    </edge>
+    <edge id="e289" source="N44" target="N50">
+      <data key="d1">1.71</data>
+    </edge>
+    <edge id="e290" source="N18" target="N39">
+      <data key="d1">1.49</data>
+    </edge>
+    <edge id="e291" source="N2" target="N14">
+      <data key="d1">0.83</data>
+    </edge>
+    <edge id="e292" source="N20" target="N46">
+      <data key="d1">0.65</data>
+    </edge>
+    <edge id="e293" source="N42" target="N32">
+      <data key="d1">1.51</data>
+    </edge>
+    <edge id="e294" source="N39" target="N25">
+      <data key="d1">0.49</data>
+    </edge>
+    <edge id="e295" source="N36" target="N6">
+      <data key="d1">1.88</data>
+    </edge>
+    <edge id="e296" source="N29" target="N28">
+      <data key="d1">0.38</data>
+    </edge>
+    <edge id="e297" source="N2" target="N30">
+      <data key="d1">1.68</data>
+    </edge>
+    <edge id="e298" source="N11" target="N17">
+      <data key="d1">0.70</data>
+    </edge>
+    <edge id="e299" source="N21" target="N35">
+      <data key="d1">2.00</data>
+    </edge>
+    <edge id="e300" source="N5" target="N33">
+      <data key="d1">1.60</data>
+    </edge>
+    <edge id="e301" source="N37" target="N13">
+      <data key="d1">0.80</data>
+    </edge>
+    <edge id="e302" source="N44" target="N35">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e303" source="N8" target="N22">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e304" source="N34" target="N3">
+      <data key="d1">1.98</data>
+    </edge>
+    <edge id="e305" source="N40" target="N21">
+      <data key="d1">0.92</data>
+    </edge>
+    <edge id="e306" source="N26" target="N34">
+      <data key="d1">1.15</data>
+    </edge>
+    <edge id="e307" source="N7" target="N34">
+      <data key="d1">0.51</data>
+    </edge>
+    <edge id="e308" source="N22" target="N5">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e309" source="N40" target="N45">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e310" source="N9" target="N28">
+      <data key="d1">1.58</data>
+    </edge>
+    <edge id="e311" source="N34" target="N9">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e312" source="N6" target="N42">
+      <data key="d1">0.94</data>
+    </edge>
+    <edge id="e313" source="N47" target="N4">
+      <data key="d1">0.50</data>
+    </edge>
+    <edge id="e314" source="N44" target="N13">
+      <data key="d1">1.72</data>
+    </edge>
+    <edge id="e315" source="N44" target="N15">
+      <data key="d1">0.34</data>
+    </edge>
+    <edge id="e316" source="N20" target="N24">
+      <data key="d1">1.42</data>
+    </edge>
+    <edge id="e317" source="N22" target="N16">
+      <data key="d1">1.62</data>
+    </edge>
+    <edge id="e318" source="N43" target="N6">
+      <data key="d1">1.79</data>
+    </edge>
+    <edge id="e319" source="N16" target="N11">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e320" source="N27" target="N14">
+      <data key="d1">1.41</data>
+    </edge>
+    <edge id="e321" source="N13" target="N10">
+      <data key="d1">0.61</data>
+    </edge>
+    <edge id="e322" source="N11" target="N14">
+      <data key="d1">1.95</data>
+    </edge>
+    <edge id="e323" source="N7" target="N26">
+      <data key="d1">1.43</data>
+    </edge>
+    <edge id="e324" source="N37" target="N28">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e325" source="N30" target="N14">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge id="e326" source="N17" target="N30">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e327" source="N48" target="N37">
+      <data key="d1">0.60</data>
+    </edge>
+    <edge id="e328" source="N49" target="N38">
+      <data key="d1">0.96</data>
+    </edge>
+    <edge id="e329" source="N15" target="N17">
+      <data key="d1">1.01</data>
+    </edge>
+    <edge id="e330" source="N2" target="N48">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e331" source="N10" target="N32">
+      <data key="d1">0.46</data>
+    </edge>
+    <edge id="e332" source="N27" target="N29">
+      <data key="d1">0.99</data>
+    </edge>
+    <edge id="e333" source="N12" target="N35">
+      <data key="d1">1.68</data>
+    </edge>
+    <edge id="e334" source="N25" target="N23">
+      <data key="d1">0.44</data>
+    </edge>
+    <edge id="e335" source="N14" target="N1">
+      <data key="d1">1.09</data>
+    </edge>
+    <edge id="e336" source="N9" target="N19">
+      <data key="d1">1.10</data>
+    </edge>
+    <edge id="e337" source="N3" target="N16">
+      <data key="d1">1.33</data>
+    </edge>
+    <edge id="e338" source="N15" target="N5">
+      <data key="d1">1.67</data>
+    </edge>
+    <edge id="e339" source="N25" target="N6">
+      <data key="d1">1.47</data>
+    </edge>
+    <edge id="e340" source="N5" target="N28">
+      <data key="d1">0.73</data>
+    </edge>
+    <edge id="e341" source="N33" target="N1">
+      <data key="d1">0.81</data>
+    </edge>
+    <edge id="e342" source="N24" target="N16">
+      <data key="d1">0.42</data>
+    </edge>
+    <edge id="e343" source="N34" target="N45">
+      <data key="d1">0.65</data>
+    </edge>
+    <edge id="e344" source="N17" target="N34">
+      <data key="d1">1.50</data>
+    </edge>
+    <edge id="e345" source="N19" target="N14">
+      <data key="d1">1.12</data>
+    </edge>
+    <edge id="e346" source="N29" target="N1">
+      <data key="d1">0.54</data>
+    </edge>
+    <edge id="e347" source="N39" target="N43">
+      <data key="d1">0.79</data>
+    </edge>
+    <edge id="e348" source="N42" target="N11">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e349" source="N38" target="N10">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e350" source="N1" target="N14">
+      <data key="d1">0.60</data>
+    </edge>
+    <edge id="e351" source="N42" target="N14">
+      <data key="d1">0.49</data>
+    </edge>
+    <edge id="e352" source="N7" target="N28">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e353" source="N43" target="N16">
+      <data key="d1">0.48</data>
+    </edge>
+    <edge id="e354" source="N47" target="N34">
+      <data key="d1">1.66</data>
+    </edge>
+    <edge id="e355" source="N33" target="N13">
+      <data key="d1">1.67</data>
+    </edge>
+    <edge id="e356" source="N33" target="N18">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e357" source="N41" target="N2">
+      <data key="d1">0.64</data>
+    </edge>
+    <edge id="e358" source="N21" target="N15">
+      <data key="d1">0.79</data>
+    </edge>
+    <edge id="e359" source="N34" target="N49">
+      <data key="d1">1.16</data>
+    </edge>
+    <edge id="e360" source="N14" target="N15">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge id="e361" source="N24" target="N5">
+      <data key="d1">1.38</data>
+    </edge>
+    <edge id="e362" source="N4" target="N32">
+      <data key="d1">1.62</data>
+    </edge>
+    <edge id="e363" source="N34" target="N12">
+      <data key="d1">1.19</data>
+    </edge>
+    <edge id="e364" source="N44" target="N16">
+      <data key="d1">1.57</data>
+    </edge>
+    <edge id="e365" source="N6" target="N10">
+      <data key="d1">0.38</data>
+    </edge>
+    <edge id="e366" source="N28" target="N13">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e367" source="N29" target="N2">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge id="e368" source="N42" target="N25">
+      <data key="d1">0.32</data>
+    </edge>
+    <edge id="e369" source="N33" target="N21">
+      <data key="d1">1.47</data>
+    </edge>
+    <edge id="e370" source="N46" target="N3">
+      <data key="d1">0.60</data>
+    </edge>
+    <edge id="e371" source="N24" target="N44">
+      <data key="d1">1.15</data>
+    </edge>
+    <edge id="e372" source="N3" target="N37">
+      <data key="d1">0.76</data>
+    </edge>
+    <edge id="e373" source="N10" target="N37">
+      <data key="d1">1.94</data>
+    </edge>
+    <edge id="e374" source="N20" target="N31">
+      <data key="d1">1.83</data>
+    </edge>
+    <edge id="e375" source="N24" target="N35">
+      <data key="d1">1.76</data>
+    </edge>
+    <edge id="e376" source="N25" target="N45">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e377" source="N3" target="N36">
+      <data key="d1">2.00</data>
+    </edge>
+    <edge id="e378" source="N42" target="N44">
+      <data key="d1">0.50</data>
+    </edge>
+    <edge id="e379" source="N15" target="N7">
+      <data key="d1">0.95</data>
+    </edge>
+    <edge id="e380" source="N45" target="N1">
+      <data key="d1">0.52</data>
+    </edge>
+    <edge id="e381" source="N7" target="N23">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e382" source="N14" target="N35">
+      <data key="d1">0.86</data>
+    </edge>
+    <edge id="e383" source="N45" target="N32">
+      <data key="d1">0.41</data>
+    </edge>
+    <edge id="e384" source="N23" target="N35">
+      <data key="d1">1.26</data>
+    </edge>
+    <edge id="e385" source="N37" target="N8">
+      <data key="d1">1.47</data>
+    </edge>
+    <edge id="e386" source="N1" target="N22">
+      <data key="d1">1.94</data>
+    </edge>
+    <edge id="e387" source="N8" target="N12">
+      <data key="d1">1.41</data>
+    </edge>
+    <edge id="e388" source="N36" target="N27">
+      <data key="d1">1.18</data>
+    </edge>
+    <edge id="e389" source="N21" target="N40">
+      <data key="d1">1.42</data>
+    </edge>
+    <edge id="e390" source="N48" target="N41">
+      <data key="d1">0.39</data>
+    </edge>
+    <edge id="e391" source="N28" target="N32">
+      <data key="d1">1.34</data>
+    </edge>
+    <edge id="e392" source="N15" target="N21">
+      <data key="d1">0.96</data>
+    </edge>
+    <edge id="e393" source="N1" target="N40">
+      <data key="d1">0.49</data>
+    </edge>
+    <edge id="e394" source="N31" target="N50">
+      <data key="d1">1.90</data>
+    </edge>
+    <edge id="e395" source="N26" target="N35">
+      <data key="d1">1.44</data>
+    </edge>
+    <edge id="e396" source="N26" target="N45">
+      <data key="d1">1.22</data>
+    </edge>
+    <edge id="e397" source="N17" target="N42">
+      <data key="d1">0.41</data>
+    </edge>
+    <edge id="e398" source="N45" target="N50">
+      <data key="d1">1.70</data>
+    </edge>
+    <edge id="e399" source="N35" target="N5">
+      <data key="d1">1.40</data>
+    </edge>
+    <edge id="e400" source="N3" target="N14">
+      <data key="d1">1.49</data>
+    </edge>
+    <edge id="e401" source="N10" target="N43">
+      <data key="d1">0.63</data>
+    </edge>
+    <edge id="e402" source="N16" target="N44">
+      <data key="d1">0.55</data>
+    </edge>
+    <edge id="e403" source="N22" target="N43">
+      <data key="d1">0.63</data>
+    </edge>
+    <edge id="e404" source="N34" target="N41">
+      <data key="d1">1.31</data>
+    </edge>
+    <edge id="e405" source="N24" target="N28">
+      <data key="d1">1.04</data>
+    </edge>
+    <edge id="e406" source="N25" target="N15">
+      <data key="d1">1.85</data>
+    </edge>
+    <edge id="e407" source="N26" target="N25">
+      <data key="d1">1.19</data>
+    </edge>
+    <edge id="e408" source="N21" target="N8">
+      <data key="d1">0.55</data>
+    </edge>
+    <edge id="e409" source="N22" target="N30">
+      <data key="d1">1.12</data>
+    </edge>
+    <edge id="e410" source="N11" target="N15">
+      <data key="d1">1.34</data>
+    </edge>
+    <edge id="e411" source="N11" target="N48">
+      <data key="d1">1.05</data>
+    </edge>
+    <edge id="e412" source="N7" target="N33">
+      <data key="d1">0.81</data>
+    </edge>
+    <edge id="e413" source="N25" target="N12">
+      <data key="d1">1.53</data>
+    </edge>
+    <edge id="e414" source="N46" target="N34">
+      <data key="d1">1.29</data>
+    </edge>
+    <edge id="e415" source="N28" target="N7">
+      <data key="d1">0.94</data>
+    </edge>
+    <edge id="e416" source="N2" target="N34">
+      <data key="d1">0.57</data>
+    </edge>
+    <edge id="e417" source="N33" target="N8">
+      <data key="d1">1.89</data>
+    </edge>
+    <edge id="e418" source="N17" target="N48">
+      <data key="d1">0.70</data>
+    </edge>
+    <edge id="e419" source="N22" target="N27">
+      <data key="d1">1.79</data>
+    </edge>
+    <edge id="e420" source="N36" target="N43">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e421" source="N49" target="N9">
+      <data key="d1">0.36</data>
+    </edge>
+    <edge id="e422" source="N22" target="N48">
+      <data key="d1">1.32</data>
+    </edge>
+    <edge id="e423" source="N4" target="N5">
+      <data key="d1">1.78</data>
+    </edge>
+    <edge id="e424" source="N47" target="N14">
+      <data key="d1">1.52</data>
+    </edge>
+    <edge id="e425" source="N20" target="N39">
+      <data key="d1">1.78</data>
+    </edge>
+    <edge id="e426" source="N19" target="N24">
+      <data key="d1">0.89</data>
+    </edge>
+    <edge id="e427" source="N34" target="N27">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e428" source="N25" target="N42">
+      <data key="d1">1.27</data>
+    </edge>
+    <edge id="e429" source="N10" target="N17">
+      <data key="d1">0.80</data>
+    </edge>
+    <edge id="e430" source="N37" target="N16">
+      <data key="d1">0.41</data>
+    </edge>
+    <edge id="e431" source="N26" target="N29">
+      <data key="d1">0.45</data>
+    </edge>
+    <edge id="e432" source="N11" target="N27">
+      <data key="d1">1.06</data>
+    </edge>
+    <edge id="e433" source="N27" target="N37">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e434" source="N47" target="N24">
+      <data key="d1">1.60</data>
+    </edge>
+    <edge id="e435" source="N39" target="N2">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e436" source="N44" target="N9">
+      <data key="d1">0.60</data>
+    </edge>
+    <edge id="e437" source="N46" target="N37">
+      <data key="d1">1.57</data>
+    </edge>
+    <edge id="e438" source="N45" target="N34">
+      <data key="d1">1.45</data>
+    </edge>
+    <edge id="e439" source="N36" target="N10">
+      <data key="d1">0.70</data>
+    </edge>
+    <edge id="e440" source="N15" target="N47">
+      <data key="d1">0.44</data>
+    </edge>
+    <edge id="e441" source="N5" target="N29">
+      <data key="d1">0.31</data>
+    </edge>
+    <edge id="e442" source="N38" target="N20">
+      <data key="d1">1.18</data>
+    </edge>
+    <edge id="e443" source="N20" target="N23">
+      <data key="d1">0.68</data>
+    </edge>
+    <edge id="e444" source="N33" target="N34">
+      <data key="d1">0.66</data>
+    </edge>
+    <edge id="e445" source="N47" target="N32">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e446" source="N22" target="N9">
+      <data key="d1">1.07</data>
+    </edge>
+    <edge id="e447" source="N13" target="N5">
+      <data key="d1">1.25</data>
+    </edge>
+    <edge id="e448" source="N11" target="N12">
+      <data key="d1">0.99</data>
+    </edge>
+    <edge id="e449" source="N2" target="N16">
+      <data key="d1">0.89</data>
+    </edge>
+    <edge id="e450" source="N27" target="N26">
+      <data key="d1">1.02</data>
+    </edge>
+    <edge id="e451" source="N1" target="N34">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge id="e452" source="N30" target="N24">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e453" source="N3" target="N42">
+      <data key="d1">1.28</data>
+    </edge>
+    <edge id="e454" source="N7" target="N27">
+      <data key="d1">1.93</data>
+    </edge>
+    <edge id="e455" source="N44" target="N4">
+      <data key="d1">0.66</data>
+    </edge>
+    <edge id="e456" source="N41" target="N34">
+      <data key="d1">0.78</data>
+    </edge>
+    <edge id="e457" source="N41" target="N37">
+      <data key="d1">1.59</data>
+    </edge>
+    <edge id="e458" source="N47" target="N1">
+      <data key="d1">1.08</data>
+    </edge>
+    <edge id="e459" source="N9" target="N2">
+      <data key="d1">1.21</data>
+    </edge>
+    <edge id="e460" source="N49" target="N26">
+      <data key="d1">1.74</data>
+    </edge>
+    <edge id="e461" source="N11" target="N7">
+      <data key="d1">0.70</data>
+    </edge>
+    <edge id="e462" source="N42" target="N49">
+      <data key="d1">0.80</data>
+    </edge>
+    <edge id="e463" source="N25" target="N11">
+      <data key="d1">0.93</data>
+    </edge>
+    <edge id="e464" source="N48" target="N10">
+      <data key="d1">1.90</data>
+    </edge>
+    <edge id="e465" source="N27" target="N1">
+      <data key="d1">0.73</data>
+    </edge>
+    <edge id="e466" source="N13" target="N48">
+      <data key="d1">1.19</data>
+    </edge>
+    <edge id="e467" source="N24" target="N7">
+      <data key="d1">1.31</data>
+    </edge>
+    <edge id="e468" source="N8" target="N6">
+      <data key="d1">1.82</data>
+    </edge>
+    <edge id="e469" source="N3" target="N7">
+      <data key="d1">0.88</data>
+    </edge>
+    <edge id="e470" source="N30" target="N19">
+      <data key="d1">0.82</data>
+    </edge>
+    <edge id="e471" source="N41" target="N5">
+      <data key="d1">1.34</data>
+    </edge>
+    <edge id="e472" source="N15" target="N12">
+      <data key="d1">1.53</data>
+    </edge>
+    <edge id="e473" source="N39" target="N48">
+      <data key="d1">0.72</data>
+    </edge>
+    <edge id="e474" source="N44" target="N12">
+      <data key="d1">1.24</data>
+    </edge>
+    <edge id="e475" source="N24" target="N48">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge id="e476" source="N36" target="N48">
+      <data key="d1">1.51</data>
+    </edge>
+    <edge id="e477" source="N44" target="N7">
+      <data key="d1">0.60</data>
+    </edge>
+    <edge id="e478" source="N47" target="N8">
+      <data key="d1">0.77</data>
+    </edge>
+    <edge id="e479" source="N42" target="N29">
+      <data key="d1">1.71</data>
+    </edge>
+    <edge id="e480" source="N19" target="N37">
+      <data key="d1">1.81</data>
+    </edge>
+    <edge id="e481" source="N21" target="N12">
+      <data key="d1">0.97</data>
+    </edge>
+    <edge id="e482" source="N23" target="N1">
+      <data key="d1">1.84</data>
+    </edge>
+    <edge id="e483" source="N36" target="N29">
+      <data key="d1">0.52</data>
+    </edge>
+    <edge id="e484" source="N50" target="N5">
+      <data key="d1">0.45</data>
+    </edge>
+    <edge id="e485" source="N5" target="N14">
+      <data key="d1">0.69</data>
+    </edge>
+    <edge id="e486" source="N27" target="N28">
+      <data key="d1">0.64</data>
+    </edge>
+    <edge id="e487" source="N1" target="N18">
+      <data key="d1">1.18</data>
+    </edge>
+    <edge id="e488" source="N20" target="N16">
+      <data key="d1">1.37</data>
+    </edge>
+    <edge id="e489" source="N12" target="N23">
+      <data key="d1">1.72</data>
+    </edge>
+    <edge id="e490" source="N17" target="N4">
+      <data key="d1">1.16</data>
+    </edge>
+    <edge id="e491" source="N32" target="N27">
+      <data key="d1">1.26</data>
+    </edge>
+    <edge id="e492" source="N4" target="N28">
+      <data key="d1">0.92</data>
+    </edge>
+    <edge id="e493" source="N38" target="N29">
+      <data key="d1">1.55</data>
+    </edge>
+    <edge id="e494" source="N50" target="N4">
+      <data key="d1">0.43</data>
+    </edge>
+    <edge id="e495" source="N8" target="N11">
+      <data key="d1">1.70</data>
+    </edge>
+    <edge id="e496" source="N17" target="N21">
+      <data key="d1">1.07</data>
+    </edge>
+    <edge id="e497" source="N48" target="N21">
+      <data key="d1">1.80</data>
+    </edge>
+    <edge id="e498" source="N42" target="N19">
+      <data key="d1">1.64</data>
+    </edge>
+    <edge id="e499" source="N26" target="N3">
+      <data key="d1">0.95</data>
+    </edge>
+    <edge id="e500" source="N12" target="N47">
+      <data key="d1">1.44</data>
+    </edge>
+  </graph>
+</graphml>

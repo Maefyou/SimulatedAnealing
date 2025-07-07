@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="d0" for="node" attr.name="dauer" attr.type="double"/>
+  <key id="d1" for="edge" attr.name="zusatzaufwand" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="AA">
+      <data key="d0">5.0</data>
+    </node>
+    <node id="B">
+      <data key="d0">7.0</data>
+    </node>
+    <node id="C">
+      <data key="d0">7.0</data>
+    </node>
+    <node id="D">
+      <data key="d0">8.0</data>
+    </node>
+    <!-- Basissequenz A bis M -->
+    <edge id="e1" source="AA" target="B">
+      <data key="d1">1    </data>
+    </edge>
+    <edge id="e2" source="B" target="C">
+      <data key="d2">1    </data>
+    </edge>
+    <edge id="e3" source="C" target="D">
+      <data key="d3">1    </data>
+    </edge>
+    <edge id="e4" source="D" target="AA">
+      <data key="d4">1    </data>
+    </edge>
+    <edge id="e5" source="AA" target="C">
+      <data key="d5">1    </data>
+    </edge>
+    <edge id="e6" source="B" target="D">
+      <data key="d6">1    </data>
+    </edge>
+    <edge id="e7" source="C" target="AA">
+      <data key="d7">1    </data>
+    </edge>
+    <edge id="e8" source="D" target="B">
+      <data key="d8">1    </data>
+    </edge>
+    <edge id="e9" source="AA" target="D">
+      <data key="d9">1    </data>
+    </edge>
+    <edge id="e10" source="B" target="AA">
+      <data key="d10">1    </data>
+    </edge>
+    <edge id="e11" source="C" target="B">
+      <data key="d11">1    </data>
+    </edge>
+
+    
