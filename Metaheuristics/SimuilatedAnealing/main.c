@@ -336,11 +336,14 @@ int main(int argc, char *argv[])
     double cooling_rate = 1 - (1 / pow(node_count, 2.5)); // Abkühlungsrate
     int max_iterations = 100000 * pow(node_count, 0.6); // Maximale Iterationen
     int *path = malloc(node_count * sizeof(int));
+    const int sa_iterations = 3; //anzahl der Simulated Annealing Durchläufe
+    int *best_paths = malloc(sa_iterations*MAX_NODES*sizeof(int)); //liste der besten gefundenen Pfade aus jedem Simulated Annealing Durchlauf
+    double *best_path_cost = malloc(sa_iterations * sizeof(int)); //speichert die Kosten des besten Pfades aus jedem Simulated Annealing Durchlauf
+    generate_random_path(path, node_count, (unsigned int)time(NULL));
 
     // Führe Simulated Annealing mehrfach aus
-    for (int i = 0; i < 1; i++)
+    for (int i = 0; i < sa_iterations; i++)
     {
-        generate_random_path(path, node_count, (unsigned int)time(NULL) + i);
         simulated_annealing(path, node_count, initial_temp, cooling_rate, max_iterations, (unsigned int)time(NULL), FromTo);
         // Prüfe Pfad auf gültige Übergänge und eindeutige Knoten
         int *visited = calloc(node_count, sizeof(int));
@@ -377,13 +380,31 @@ int main(int argc, char *argv[])
                 break;
             }
         }
-
+        // Speichere den besten Pfad
+        memcpy(&best_paths[i * MAX_NODES], path, node_count * sizeof(int));
+        best_path_cost[i] = calculate_cost(path, node_count, FromTo);
         free(visited);
     }
 
+    //copy best path to path
+    int best_index = 0;
+    for(int i = 0; i < sa_iterations; i++)
+    {
+        printf("Best cost of iteration %d: %lf\n", i, best_path_cost[i]);
+        if(best_path_cost[i] < best_path_cost[best_index])
+        {
+            best_index = i;
+            path = &best_paths[i * MAX_NODES];
+            printf("New best path found in iteration %d with cost %lf\n", i, best_path_cost[i]);
+        }
+    }
+    
+    free(best_path_cost);
+    free(best_paths);
+
     // Ausgabe des finalen Pfads
     int illegals = 0;
-    printf("Final path: ");
+    printf("\nFinal path: ");
     for (int i = 0; i < node_count; i++)
     {
         printf("%s ", namen[path[i]]);
