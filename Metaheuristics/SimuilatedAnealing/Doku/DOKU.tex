@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+\begin{document}
+
+\title{Dokumentation der Simulated Annealing Implementierung}
+\maketitle
+
+\section*{Dokumentation der main.c}
+
+Die Datei \texttt{main.c} enthält die vollständige Implementierung der Metaheuristik Simulated Annealing zur Optimierung der Reihenfolge von Fräsarbeitsgängen. Im Folgenden werden alle Funktionen und deren Zweck kurz beschrieben.
+
+\begin{description}
+    \item[\texttt{name\_to\_idx}] Wandelt einen Knotennamen (\texttt{char*}) in den zugehörigen Index im Knotenarray um. Wird für die Zuordnung von Kanten und Knoten verwendet.
+    \item[\texttt{graphml\_to\_adjacency\_matrix}] Liest eine GraphML-Datei ein, zählt die Anzahl der Knoten und Kanten, speichert die Knotennamen und füllt die Adjazenzmatrix mit den Kantengewichten. Initialisiert außerdem die globale Knotengewichtsumme um sie nicht ständig neu zu berechnen.
+    \item[\texttt{calculate\_cost}] Berechnet die Kosten eines Pfades, indem die Kantengewichte aufsummiert werden. Ungültige Übergänge werden mit einer hohen Strafe versehen. Die Knotengewichte werden zu den Gesamtkosten hinzugefügt.
+    \item[\texttt{random\_swap}] Vertauscht zufällig zwei Elemente im Pfad. Dient der Erzeugung neuer Nachbarschaftslösungen im Simulated Annealing. Erzeugt potentiell löcher im Pfad, welche durch maximise\_path behoben werden.
+    \item[\texttt{maximise\_path}] Versucht, einen Pfad möglichst gültig zu machen, indem ungültige Übergänge durch gezielte Vertauschungen minimiert werden.
+    \item[\texttt{get\_valid\_transition\_count}] Gibt die Anzahl gültiger Übergänge (Kanten mit Gewicht ungleich Null) im Pfad zurück. Wird zur Bewertung der Pfadqualität genutzt.
+    \item[\texttt{simulated\_annealing}] Implementiert den Simulated Annealing Algorithmus. Mutiert den Pfad iterativ durch zufällige Vertauschungen und akzeptiert neue Lösungen nach dem Metropolis-Kriterium. Gibt regelmäßig Zwischenstände und eine ETA aus.
+    \item[\texttt{generate\_random\_path}] Erzeugt eine zufällige Permutation der Knoten als Startpfad für die Optimierung.
+    \item[\texttt{write\_best\_path\_txt}] Schreibt den besten gefundenen Pfad als Semikolon-separierte Liste in eine Textdatei. Die Datei wird im Ordner \texttt{\_bestpath\_graph} abgelegt und enthält zusätzlich die Kosten des Pfades.
+    \item[\texttt{main}] Hauptfunktion. Liest die Eingabedatei, initialisiert die Datenstrukturen, gibt die Adjazenzmatrix aus, führt mehrere Simulated Annealing Durchläufe aus um tatsächlich gebrauch von den Temperaturen zu machen, wählt den besten Pfad dieser Läufe und gibt diesen sowohl auf der Konsole als auch in einer Textdatei aus. Am Ende werden alle Ressourcen freigegeben.
+\end{description}
+
+\end{document}

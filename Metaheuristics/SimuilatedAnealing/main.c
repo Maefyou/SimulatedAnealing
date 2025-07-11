@@ -3,7 +3,6 @@
 #include <string.h>
 #include <float.h>
 #include <time.h>
-#include <windows.h>
 #include <math.h>
 
 #define MAX_NODES 1000 // Maximale Knotenzahl für Speicherreservierung
@@ -294,6 +293,24 @@ void generate_random_path(int *path, int size, unsigned int seed)
     }
 }
 
+// Schreibt den besten Pfad als .txt-Datei mit Semikolon-Trennung
+void write_best_path_txt(const char *filename_prefix, int *path, int node_count, char namen[][16], double cost) {
+    
+    FILE *f = fopen("_bestpath.txt", "w");
+    if (!f) {
+        printf("Fehler beim Schreiben der Datei \n");
+        return;
+    }
+    // Pfad ausgeben
+    for (int i = 0; i < node_count; i++) {
+        fprintf(f, "%s", namen[path[i]]);
+        if (i < node_count - 1)
+            fprintf(f, ";");
+    }
+    fclose(f);
+    printf("Pfad wurde gespeichert.\n");
+}
+
 int main(int argc, char *argv[])
 {
     if (argc < 2)
@@ -418,6 +435,10 @@ int main(int argc, char *argv[])
     printf("cost: %lf\n", calculate_cost(path, node_count, FromTo));
     printf("illegals in circle (-1 for path): %d\n", illegals);
 
+
+    // Nach der Ausgabe des finalen Pfads:
+    write_best_path_txt(FILE_NAME, path, node_count, namen, calculate_cost(path, node_count, FromTo));
+
     // Speicher freigeben
     for (int i = 0; i < node_count; ++i)
     {
@@ -425,5 +446,6 @@ int main(int argc, char *argv[])
     }
     free(FromTo);
     free(path);
+
     return 0;
 }
