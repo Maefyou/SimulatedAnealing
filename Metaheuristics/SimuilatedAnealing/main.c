@@ -175,7 +175,7 @@ void maximise_path(int *path, int nodes, double **FromTo)
     int best_cost = calculate_cost(path, nodes, FromTo);
     int new_cost = best_cost;
     int working = 0;
-    for (int iterations = 0; iterations < 2 * nodes; iterations++)
+    for (int iterations = 0; iterations < 1 * nodes; iterations++)
     {
         new_cost = calculate_cost(path, nodes, FromTo);
         if (new_cost < best_cost)
@@ -226,7 +226,7 @@ void simulated_annealing(int *path, int size, double initial_temp, double coolin
     int updates = 0;
     int *new_path = malloc(size * sizeof(int));
     memcpy(new_path, path, size * sizeof(int));
-    int random_swaps = pow(size, 0.35); // Anzahl der möglichen Vertauschungen
+    int random_swaps = pow(size, 0.4); // Anzahl der möglichen Vertauschungen
 
     clock_t start_time = clock(); // Startzeit für ETA
 
@@ -295,20 +295,21 @@ void generate_random_path(int *path, int size, unsigned int seed)
 
 // Schreibt den besten Pfad als .txt-Datei mit Semikolon-Trennung
 void write_best_path_txt(const char *filename_prefix, int *path, int node_count, char namen[][16], double cost) {
-    
-    FILE *f = fopen("_bestpath.txt", "w");
-    if (!f) {
-        printf("Fehler beim Schreiben der Datei \n");
+    char output_filename[256];
+    snprintf(output_filename, sizeof(output_filename), "bestpaths/%s_bestpath.txt", filename_prefix);
+    FILE *file = fopen(output_filename, "w");
+    if (!file) {
+        perror("Datei konnte nicht geöffnet werden");
         return;
     }
-    // Pfad ausgeben
+    fprintf(file, "Best Path: ");
     for (int i = 0; i < node_count; i++) {
-        fprintf(f, "%s", namen[path[i]]);
-        if (i < node_count - 1)
-            fprintf(f, ";");
+        fprintf(file, "%s", namen[path[i]]);
+        if (i < node_count - 1) {
+            fprintf(file, "; ");
+        }
     }
-    fclose(f);
-    printf("Pfad wurde gespeichert.\n");
+    fclose(file);
 }
 
 int main(int argc, char *argv[])
@@ -349,9 +350,9 @@ int main(int argc, char *argv[])
     printf("\nNode Time Sum: %lf\n", node_time_sum);
 
     // Parameter für Simulated Annealing
-    double initial_temp = 100*node_count; // Starttemperatur
+    double initial_temp = 200*node_count; // Starttemperatur
     double cooling_rate = 1 - (1 / pow(node_count, 2.5)); // Abkühlungsrate
-    int max_iterations = 100000 * pow(node_count, 0.6); // Maximale Iterationen
+    int max_iterations = 100000 * pow(node_count, 0.65); // Maximale Iterationen
     int *path = malloc(node_count * sizeof(int));
     const int sa_iterations = 3; //anzahl der Simulated Annealing Durchläufe
     int *best_paths = malloc(sa_iterations*MAX_NODES*sizeof(int)); //liste der besten gefundenen Pfade aus jedem Simulated Annealing Durchlauf

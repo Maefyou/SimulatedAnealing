@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.9)  11 JUL 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.9)  17 JUL 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/DOKU.tex
-(c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/DOKU.tex
+**c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex
+(c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
 (d:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -77,13 +77,8 @@ LaTeX Warning: No \author given.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 15.
 
-Overfull \hbox (5.63782pt too wide) in paragraph at lines 22--23
-[]\T1/cmr/m/n/10 Erzeugt ei-ne zu-fäl-li-ge Per-mu-ta-ti-on der Kno-ten als Start-
- []
-
-
-Overfull \hbox (14.89047pt too wide) in paragraph at lines 23--24
-\T1/cmr/m/n/10 separierte Lis-te in ei-ne Text-da-tei. Die Da-tei wird im Ord-ner \T1/cmtt/m/n/10 _bestpath_graph
+Overfull \hbox (2.53238pt too wide) in paragraph at lines 15--16
+\T1/cmr/m/n/10 zahl der Kno-ten und Kan-ten, spei-chert die Kno-ten-na-men via na-me_to_idx
  []
 
 
@@ -91,6 +86,11 @@ Overfull \hbox (14.89047pt too wide) in paragraph at lines 23--24
 [1
 
 {d:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Overfull \hbox (5.63782pt too wide) in paragraph at lines 22--23
+[]\T1/cmr/m/n/10 Erzeugt ei-ne zu-fäl-li-ge Per-mu-ta-ti-on der Kno-ten als Start-
+ []
+
+
 
 [2] (./DOKU.aux)
  ***********
@@ -100,14 +100,14 @@ L3 programming layer <2025-04-14>
  ) 
 Here is how much of TeX's memory you used:
  1818 strings out of 469607
- 30872 string characters out of 5474759
+ 30887 string characters out of 5474759
  431186 words of memory out of 5000000
  28695 multiletter control sequences out of 15000+600000
  634488 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,6n,56p,527b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 48i,6n,56p,614b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on DOKU.pdf (2 pages, 93032 bytes).
+Output written on DOKU.pdf (2 pages, 95450 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
