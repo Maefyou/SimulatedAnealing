@@ -49,6 +49,7 @@ OUTPUT DOKU.pdf
 INPUT d:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT d:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT DOKU.aux
+INPUT d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
 INPUT d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
 INPUT d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

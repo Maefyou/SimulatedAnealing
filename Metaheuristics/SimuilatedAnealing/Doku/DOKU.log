@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.9)  17 JUL 2025 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.9)  18 JUL 2025 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -91,6 +91,11 @@ Overfull \hbox (5.63782pt too wide) in paragraph at lines 22--23
  []
 
 
+Overfull \hbox (11.47545pt too wide) in paragraph at lines 40--41
+ \T1/cmr/bx/n/10 Da-tei-en: \T1/cmr/m/n/10 Der op-ti-mier-te Pfad wird in ei-ner Text-da-tei im Ver-zeich-nis \T1/cmtt/m/n/10 bestpaths/
+ []
+
+
 
 [2] (./DOKU.aux)
  ***********
@@ -99,18 +104,18 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1818 strings out of 469607
- 30887 string characters out of 5474759
+ 1820 strings out of 469607
+ 30947 string characters out of 5474759
  431186 words of memory out of 5000000
- 28695 multiletter control sequences out of 15000+600000
+ 28697 multiletter control sequences out of 15000+600000
  634488 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,6n,56p,614b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on DOKU.pdf (2 pages, 95450 bytes).
+<d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on DOKU.pdf (2 pages, 112649 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1752753296.67675 "c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex" "DOKU.pdf" "DOKU" 1752753297.83392 0
-  "DOKU.aux" 1752753297 170 330a884c71e6361ea1d37761537236be "pdflatex"
-  "DOKU.tex" 1752753296 3569 5a1106514c24d0ee3aef62cf2ca8ec5b ""
-  "c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex" 1752753296 3569 5a1106514c24d0ee3aef62cf2ca8ec5b ""
+["pdflatex"] 1752837423.40459 "c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex" "DOKU.pdf" "DOKU" 1752837424.40572 0
+  "DOKU.aux" 1752837424 170 330a884c71e6361ea1d37761537236be "pdflatex"
+  "DOKU.tex" 1752837422 4000 57ad3a39eca930d0cf9c840bd89dcdd9 ""
+  "c:/Users/Matthes/UNI/6.Semester/Rechentech/Metaheuristics/SimuilatedAnealing/Doku/DOKU.tex" 1752837422 4000 57ad3a39eca930d0cf9c840bd89dcdd9 ""
   "d:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1746806061 2971 def0b6c1f0b107b3b936def894055589 ""
   "d:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1746807518 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1746806900 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -21,6 +21,7 @@
   "d:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1746805990 1124 6c73e740cf17375f03eec0ee63599741 ""
   "d:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1746805990 1116 933a60c408fc0a863a92debe84b2d294 ""
   "d:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1746805990 1120 8b7d695260f3cff42e636090a8002094 ""
+  "d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb" 1746806061 145408 bcd327f112f643a875638eafb48d1d8b ""
   "d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1746806061 135942 aecb5af344df420d6ec421db27dedf62 ""
   "d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1746806061 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "d:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1746806061 136101 b18d10b3436f8cb0cd04046deb340fe7 ""

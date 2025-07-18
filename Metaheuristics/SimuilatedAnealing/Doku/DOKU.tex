@@ -20,8 +20,23 @@ Die Datei \texttt{main.c} enthält die vollständige Implementierung der Metaheu
     \item[\texttt{get\_valid\_transition\_count}] Gibt die Anzahl gültiger Übergänge (Kanten mit Gewicht ungleich Null) im Pfad zurück. Wird zur Bewertung der Pfadqualität genutzt. Hier werden alle Übergänge, inklusieve des Übergangs vom letzten Knoten zum ersten, gezählt.
     \item[\texttt{simulated\_annealing}] Implementiert den Simulated Annealing Algorithmus. Mutiert den Pfad iterativ durch zufällige Vertauschungen und akzeptiert neue Lösungen nach dem Metropolis-Kriterium. Gibt regelmäßig Zwischenstände und eine ETA aus.
     \item[\texttt{generate\_random\_path}] Erzeugt eine zufällige Permutation der Knoten als Startpfad für die Optimierung.
-    \item[\texttt{write\_best\_path\_txt}] Schreibt den besten gefundenen Pfad als Semikolon-separierte Liste in eine Textdatei. Die Datei wird unter \_bestpath.txt abgelegt.
+    \item[\texttt{write\_best\_path\_txt}] Schreibt den besten gefundenen Pfad als Semikolon-separierte Liste in eine Textdatei. Die Datei wird unter \texttt{bestpaths/} abgelegt.
     \item[\texttt{main}] Hauptfunktion. Liest die Eingabedatei, initialisiert die Datenstrukturen, gibt die Adjazenzmatrix aus, führt mehrere Simulated Annealing Durchläufe aus um tatsächlich gebrauch von den erhöhten Temperaturen zu machen und verschiedene Minima zu entdecken, wählt den besten Pfad dieser Läufe und gibt diesen sowohl auf der Konsole als auch in einer Textdatei aus. Am Ende werden alle Ressourcen freigegeben.
 \end{description}
+
+\section*{Nutzungsanleitung}
+
+Das Programm kann wie folgt kompiliert und ausgeführt werden:
+
+\begin{verbatim}
+gcc -o3 -o main main.c
+./main path/to/graphfile.graphml
+\end{verbatim}
+
+\paragraph*{Eingabeparameter:}
+Der Pfad zur GraphML-Datei wird als einziger Kommandozeilenparameter übergeben.
+
+\paragraph*{Dateien:}
+Der optimierte Pfad wird in einer Textdatei im Verzeichnis \texttt{bestpaths/} gespeichert.
 
 \end{document}
